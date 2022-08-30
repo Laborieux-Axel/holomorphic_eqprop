@@ -87,15 +87,14 @@ class cnn_forward_pass(hk.Module):
 
         x = x.flatten()
 
-        for i in range(self.convlen, len(self.layers)-1): # remove -1 for mse
+        for i in range(self.convlen, len(self.layers)-1):
             m = self.layers[i]
             x = self.act( m(x) )
 
-        # comment out if not xent
         m = self.layers[-1]
         x = m(x)
 
-        return x - logsumexp(x) # just x if not xent
+        return x - logsumexp(x)
 
 
 class ff_cnn:
@@ -103,7 +102,6 @@ class ff_cnn:
     def __init__(self, archi, act, n_targets, seed, n_devices):
 
         self.seed = seed
-        # self.loss = loss
         self.n_targets = n_targets
         self.n_devices = n_devices
 
@@ -142,12 +140,9 @@ class ff_cnn:
         x = self.batched_fwd(params, x)
         labels = y
         y = one_hot(y, self.n_targets)
-        # if self.loss == 'xent':
         tot_loss = - jnp.sum(x * y, axis=1)
         loss = jnp.mean(tot_loss)
         tot_loss = jnp.sum(tot_loss)
-        # elif self.loss == 'mse':
-            # loss = 0.5 * jnp.mean(jnp.sum(jnp.power(x - y, 2), axis=1))
 
         pred = jnp.argmax(x, axis=1)
         corr = jnp.sum(jnp.equal(pred, labels))

@@ -230,9 +230,6 @@ elif args['model_type']=='xent_p_cnn':
         
         print_summary(data)
 
-        if (epoch>=4) and (val_acc<chance*1.1): # exit if collapsed
-            exit()
-
         save_data(data, path, 'data')
 
         if args['save_checkpoint']:

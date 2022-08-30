@@ -191,8 +191,6 @@ class xp_mlp:
 
 
 
-    ## COMPLEX METHODS ## 
-
 
     @partial(jit, static_argnums=(0,4))
     def ep_grad1(self, params, x, h1, T2, beta, y):
@@ -210,9 +208,6 @@ class xp_mlp:
     @partial(jit, static_argnums=(0,4))
     def noisy_ep_grad1(self, params, x, h1, T2, beta, y, key):
         
-        # dphi_1, _ = grad(self.jtphi, has_aux=True)(params, None, x, h1, y, 0.0)
-        # dphi_2, _ = grad(self.jtphi, has_aux=True)(params, None, x, h2, y, beta)
-
         h1, _, key = self.noisy_fwd(params, x, h1, 1, 0.0, y, key)
         dphi_1_av, _ = grad(self.jtphi, has_aux=True)(params, None, x, h1, y, 0.0)
         h2, _, key = self.noisy_fwd(params, x, h1, T2, beta, y, key)
@@ -328,8 +323,6 @@ class xp_mlp:
                 grads = pmean(grads, axis_name='i')
                 return grads, key
 
-            # grads, key = vmap(lambda *args: pmean(self.fast_ep_gradN(*args), axis_name='i'),
-                         # in_axes=in_ax, out_axes=out_ax, axis_name='i')(*args)
         else:
     
             @partial(vmap, in_axes=in_ax, out_axes=out_ax, axis_name='i')
@@ -344,7 +337,6 @@ class xp_mlp:
 
 
 
-    # @partial(jit, static_argnums=(0,4,5))
     def outer_fwd(self, params, x, h, T2, N, beta, y, grads, key):
    
         for t in range(N): 
@@ -372,7 +364,6 @@ class xp_mlp:
         return f(*args) 
 
 
-    # @partial(jit, static_argnums=(0,5,6,7))
     def batched_plasticity(self, params, x, h, y, T_plas, T_teach, T_dyn, beta, key):
 
         h = to_complex(h)
@@ -385,7 +376,6 @@ class xp_mlp:
                 self.batched_outer_fwd(cparams, x, h, T_dyn, T_teach,
                                        beta, y, grads, key)
 
-        # grads = to_real_dict(grads)
         grads = div_param_dict(grads, T_teach*T_plas)
         return grads, h, key
 

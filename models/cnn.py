@@ -134,14 +134,10 @@ class xent_phi(hk.Module):
 
         x = x.flatten()
 
-        for i in range(self.convlen, len(self.layers)-1): # remove -1 for mse
+        for i in range(self.convlen, len(self.layers)-1):
             m = self.layers[i]
             x = self.act( m(x) )
             out.append(x)
-
-        # comment out if xent
-        # m = self.layers[-1]
-        # x = m(x)
 
         return tuple(out)
 
@@ -313,9 +309,6 @@ class xent_p_cnn:
 
 
 
-    ## COMPLEX METHODS ## 
- 
-
     @partial(jit, static_argnums=0)
     def _dEdw(self, params, x, h, beta, y):
         h = tree_map(lambda e: jnp.nan_to_num(e), h)
@@ -483,7 +476,6 @@ class xent_p_cnn:
 
 
 
-    # @partial(jit, static_argnums=(0,4))
     def batched_loss(self, params, x, h, T, y):
         h1, logits = self.batched_fwd(params, x, h, T, 0.0, y)
         loss = -y*log_softmax(logits, axis=1)

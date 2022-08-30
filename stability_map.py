@@ -44,9 +44,7 @@ if args['model_type']=='xp_mlp':
     elif args['task']=='toy':
         key = random.PRNGKey(seed)
         x = random.normal(key, (batch_size, in_size))
-        # x = jnp.abs(x)
         x = x/x.max()
-        # x = random.normal(key, (in_size,))
         key, subkey = random.split(key)
         y = random.randint(subkey, (batch_size,), 0, n_targets)
         print(x)
@@ -77,7 +75,6 @@ if args['model_type']=='xp_mlp':
     # Complex phase
     cparams = to_complex_dict(params)
     h1 = to_complex(h1)
-    # h1 = to_complex(h)
     x = x.astype(jnp.complex64)
 
     

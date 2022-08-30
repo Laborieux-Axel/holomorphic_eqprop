@@ -50,7 +50,6 @@ if args['model_type']=='xp_mlp':
     elif args['task']=='toy':
         x = random.normal(key, (batch_size, in_size))
         x = x/x.max()
-        # x = random.normal(key, (in_size,))
         key, subkey = random.split(key)
         y = random.randint(subkey, (batch_size,), 0, n_targets)
         print(x)

@@ -48,7 +48,6 @@ if args['model_type']=='xp_mlp':
         key = random.PRNGKey(seed)
         x = random.normal(key, (batch_size, in_size))
         x = x/x.max()
-        # x = random.normal(key, (in_size,))
         key, subkey = random.split(key)
         y = random.randint(subkey, (batch_size,), 0, n_targets)
         print(x)
@@ -106,7 +105,6 @@ if args['model_type']=='xp_mlp':
     data['cdyn'] = {}
     
     for n in range(N):
-        # h = to_complex(h1)
 
         dEdz = []
         cbeta = beta * jnp.exp((2 * 1j * jnp.pi * n)/N)
