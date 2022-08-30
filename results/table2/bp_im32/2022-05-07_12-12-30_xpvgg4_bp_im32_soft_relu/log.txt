@@ -1,0 +1,632 @@
+python train.py simus/bp/cnn/xvgg4_im32.json
+
+
+Epoch 1 in 219.17 sec
+Train accuracy :	0.075	(95751/1281024)		Train loss :	5.4259
+Val accuracy   :	0.116	(5775/50000)		Val loss :	4.9165
+Top-5 val acc  :	0.276	(13801/50000)
+
+
+
+Epoch 2 in 197.64 sec
+Train accuracy :	0.125	(159557/1281024)		Train loss :	4.826
+Val accuracy   :	0.124	(6199/50000)		Val loss :	4.8377
+Top-5 val acc  :	0.286	(14322/50000)
+
+
+
+Epoch 3 in 199.58 sec
+Train accuracy :	0.132	(169585/1281024)		Train loss :	4.7655
+Val accuracy   :	0.129	(6465/50000)		Val loss :	4.8281
+Top-5 val acc  :	0.299	(14931/50000)
+
+
+
+Epoch 4 in 199.52 sec
+Train accuracy :	0.136	(174489/1281024)		Train loss :	4.7358
+Val accuracy   :	0.132	(6603/50000)		Val loss :	4.8314
+Top-5 val acc  :	0.302	(15106/50000)
+
+
+
+Epoch 5 in 199.04 sec
+Train accuracy :	0.141	(180853/1281024)		Train loss :	4.695
+Val accuracy   :	0.139	(6931/50000)		Val loss :	4.7513
+Top-5 val acc  :	0.312	(15582/50000)
+
+
+
+Epoch 6 in 198.57 sec
+Train accuracy :	0.146	(186527/1281024)		Train loss :	4.6593
+Val accuracy   :	0.141	(7047/50000)		Val loss :	4.7223
+Top-5 val acc  :	0.316	(15817/50000)
+
+
+
+Epoch 7 in 200.22 sec
+Train accuracy :	0.148	(189363/1281024)		Train loss :	4.6368
+Val accuracy   :	0.143	(7141/50000)		Val loss :	4.7287
+Top-5 val acc  :	0.32	(16001/50000)
+
+
+
+Epoch 8 in 199.42 sec
+Train accuracy :	0.151	(193281/1281024)		Train loss :	4.6121
+Val accuracy   :	0.144	(7198/50000)		Val loss :	4.7195
+Top-5 val acc  :	0.319	(15943/50000)
+
+
+
+Epoch 9 in 199.22 sec
+Train accuracy :	0.154	(196709/1281024)		Train loss :	4.5872
+Val accuracy   :	0.143	(7137/50000)		Val loss :	4.7452
+Top-5 val acc  :	0.316	(15807/50000)
+
+
+
+Epoch 10 in 198.92 sec
+Train accuracy :	0.157	(200831/1281024)		Train loss :	4.5638
+Val accuracy   :	0.148	(7386/50000)		Val loss :	4.6857
+Top-5 val acc  :	0.326	(16283/50000)
+
+
+
+Epoch 11 in 199.51 sec
+Train accuracy :	0.159	(203434/1281024)		Train loss :	4.5449
+Val accuracy   :	0.156	(7814/50000)		Val loss :	4.6063
+Top-5 val acc  :	0.337	(16830/50000)
+
+
+
+Epoch 12 in 200.04 sec
+Train accuracy :	0.162	(207412/1281024)		Train loss :	4.5215
+Val accuracy   :	0.15	(7496/50000)		Val loss :	4.683
+Top-5 val acc  :	0.328	(16382/50000)
+
+
+
+Epoch 13 in 199.94 sec
+Train accuracy :	0.164	(210358/1281024)		Train loss :	4.5001
+Val accuracy   :	0.158	(7908/50000)		Val loss :	4.6289
+Top-5 val acc  :	0.337	(16831/50000)
+
+
+
+Epoch 14 in 198.96 sec
+Train accuracy :	0.167	(213555/1281024)		Train loss :	4.4806
+Val accuracy   :	0.159	(7955/50000)		Val loss :	4.5744
+Top-5 val acc  :	0.342	(17110/50000)
+
+
+
+Epoch 15 in 200.26 sec
+Train accuracy :	0.169	(216102/1281024)		Train loss :	4.4614
+Val accuracy   :	0.159	(7942/50000)		Val loss :	4.5945
+Top-5 val acc  :	0.341	(17044/50000)
+
+
+
+Epoch 16 in 199.02 sec
+Train accuracy :	0.17	(218119/1281024)		Train loss :	4.4458
+Val accuracy   :	0.159	(7948/50000)		Val loss :	4.5973
+Top-5 val acc  :	0.345	(17241/50000)
+
+
+
+Epoch 17 in 199.56 sec
+Train accuracy :	0.173	(221021/1281024)		Train loss :	4.4247
+Val accuracy   :	0.155	(7749/50000)		Val loss :	4.6321
+Top-5 val acc  :	0.338	(16912/50000)
+
+
+
+Epoch 18 in 198.05 sec
+Train accuracy :	0.175	(223949/1281024)		Train loss :	4.4019
+Val accuracy   :	0.164	(8179/50000)		Val loss :	4.5643
+Top-5 val acc  :	0.346	(17280/50000)
+
+
+
+Epoch 19 in 199.03 sec
+Train accuracy :	0.178	(227673/1281024)		Train loss :	4.3804
+Val accuracy   :	0.171	(8550/50000)		Val loss :	4.536
+Top-5 val acc  :	0.36	(18004/50000)
+
+
+
+Epoch 20 in 199.03 sec
+Train accuracy :	0.18	(231178/1281024)		Train loss :	4.3578
+Val accuracy   :	0.169	(8463/50000)		Val loss :	4.5319
+Top-5 val acc  :	0.359	(17944/50000)
+
+
+
+Epoch 21 in 199.58 sec
+Train accuracy :	0.182	(233589/1281024)		Train loss :	4.3406
+Val accuracy   :	0.17	(8502/50000)		Val loss :	4.4807
+Top-5 val acc  :	0.361	(18036/50000)
+
+
+
+Epoch 22 in 199.76 sec
+Train accuracy :	0.184	(236227/1281024)		Train loss :	4.3226
+Val accuracy   :	0.164	(8185/50000)		Val loss :	4.5531
+Top-5 val acc  :	0.35	(17488/50000)
+
+
+
+Epoch 23 in 199.19 sec
+Train accuracy :	0.188	(240920/1281024)		Train loss :	4.2964
+Val accuracy   :	0.171	(8541/50000)		Val loss :	4.4876
+Top-5 val acc  :	0.361	(18043/50000)
+
+
+
+Epoch 24 in 198.75 sec
+Train accuracy :	0.191	(244743/1281024)		Train loss :	4.2688
+Val accuracy   :	0.171	(8543/50000)		Val loss :	4.4501
+Top-5 val acc  :	0.364	(18224/50000)
+
+
+
+Epoch 25 in 199.84 sec
+Train accuracy :	0.194	(247957/1281024)		Train loss :	4.248
+Val accuracy   :	0.182	(9092/50000)		Val loss :	4.4393
+Top-5 val acc  :	0.373	(18668/50000)
+
+
+
+Epoch 26 in 198.53 sec
+Train accuracy :	0.197	(252122/1281024)		Train loss :	4.218
+Val accuracy   :	0.182	(9106/50000)		Val loss :	4.3868
+Top-5 val acc  :	0.378	(18898/50000)
+
+
+
+Epoch 27 in 199.31 sec
+Train accuracy :	0.201	(256874/1281024)		Train loss :	4.1904
+Val accuracy   :	0.182	(9101/50000)		Val loss :	4.4089
+Top-5 val acc  :	0.377	(18833/50000)
+
+
+
+Epoch 28 in 199.10 sec
+Train accuracy :	0.204	(261344/1281024)		Train loss :	4.1619
+Val accuracy   :	0.187	(9367/50000)		Val loss :	4.3625
+Top-5 val acc  :	0.383	(19173/50000)
+
+
+
+Epoch 29 in 195.54 sec
+Train accuracy :	0.207	(265489/1281024)		Train loss :	4.1341
+Val accuracy   :	0.186	(9290/50000)		Val loss :	4.3782
+Top-5 val acc  :	0.383	(19138/50000)
+
+
+
+Epoch 30 in 198.89 sec
+Train accuracy :	0.21	(269291/1281024)		Train loss :	4.1103
+Val accuracy   :	0.187	(9326/50000)		Val loss :	4.3556
+Top-5 val acc  :	0.383	(19127/50000)
+
+
+
+Epoch 31 in 200.26 sec
+Train accuracy :	0.213	(272910/1281024)		Train loss :	4.0868
+Val accuracy   :	0.196	(9821/50000)		Val loss :	4.2957
+Top-5 val acc  :	0.395	(19752/50000)
+
+
+
+Epoch 32 in 200.16 sec
+Train accuracy :	0.218	(278897/1281024)		Train loss :	4.0505
+Val accuracy   :	0.201	(10059/50000)		Val loss :	4.2481
+Top-5 val acc  :	0.403	(20156/50000)
+
+
+
+Epoch 33 in 214.23 sec
+Train accuracy :	0.221	(283449/1281024)		Train loss :	4.0209
+Val accuracy   :	0.204	(10184/50000)		Val loss :	4.2282
+Top-5 val acc  :	0.41	(20477/50000)
+
+
+
+Epoch 34 in 198.90 sec
+Train accuracy :	0.226	(289774/1281024)		Train loss :	3.9849
+Val accuracy   :	0.207	(10347/50000)		Val loss :	4.2318
+Top-5 val acc  :	0.412	(20577/50000)
+
+
+
+Epoch 35 in 199.92 sec
+Train accuracy :	0.23	(294451/1281024)		Train loss :	3.9565
+Val accuracy   :	0.209	(10449/50000)		Val loss :	4.1697
+Top-5 val acc  :	0.416	(20817/50000)
+
+
+
+Epoch 36 in 199.88 sec
+Train accuracy :	0.233	(298646/1281024)		Train loss :	3.9286
+Val accuracy   :	0.207	(10349/50000)		Val loss :	4.1918
+Top-5 val acc  :	0.418	(20900/50000)
+
+
+
+Epoch 37 in 199.80 sec
+Train accuracy :	0.237	(302986/1281024)		Train loss :	3.9018
+Val accuracy   :	0.216	(10790/50000)		Val loss :	4.125
+Top-5 val acc  :	0.427	(21336/50000)
+
+
+
+Epoch 38 in 202.16 sec
+Train accuracy :	0.242	(310247/1281024)		Train loss :	3.8604
+Val accuracy   :	0.211	(10575/50000)		Val loss :	4.1744
+Top-5 val acc  :	0.424	(21206/50000)
+
+
+
+Epoch 39 in 199.99 sec
+Train accuracy :	0.246	(315598/1281024)		Train loss :	3.824
+Val accuracy   :	0.213	(10670/50000)		Val loss :	4.1387
+Top-5 val acc  :	0.423	(21135/50000)
+
+
+
+Epoch 40 in 199.85 sec
+Train accuracy :	0.252	(322396/1281024)		Train loss :	3.7858
+Val accuracy   :	0.222	(11091/50000)		Val loss :	4.0681
+Top-5 val acc  :	0.435	(21726/50000)
+
+
+
+Epoch 41 in 199.33 sec
+Train accuracy :	0.257	(328696/1281024)		Train loss :	3.7524
+Val accuracy   :	0.223	(11164/50000)		Val loss :	4.0766
+Top-5 val acc  :	0.435	(21746/50000)
+
+
+
+Epoch 42 in 199.97 sec
+Train accuracy :	0.261	(334058/1281024)		Train loss :	3.7188
+Val accuracy   :	0.23	(11490/50000)		Val loss :	4.0057
+Top-5 val acc  :	0.446	(22300/50000)
+
+
+
+Epoch 43 in 199.60 sec
+Train accuracy :	0.267	(341940/1281024)		Train loss :	3.6793
+Val accuracy   :	0.236	(11800/50000)		Val loss :	3.9879
+Top-5 val acc  :	0.452	(22592/50000)
+
+
+
+Epoch 44 in 198.54 sec
+Train accuracy :	0.271	(347411/1281024)		Train loss :	3.6413
+Val accuracy   :	0.244	(12223/50000)		Val loss :	3.9312
+Top-5 val acc  :	0.463	(23144/50000)
+
+
+
+Epoch 45 in 198.94 sec
+Train accuracy :	0.276	(353840/1281024)		Train loss :	3.6101
+Val accuracy   :	0.238	(11876/50000)		Val loss :	4.001
+Top-5 val acc  :	0.456	(22776/50000)
+
+
+
+Epoch 46 in 199.33 sec
+Train accuracy :	0.281	(360476/1281024)		Train loss :	3.5671
+Val accuracy   :	0.248	(12388/50000)		Val loss :	3.881
+Top-5 val acc  :	0.468	(23387/50000)
+
+
+
+Epoch 47 in 199.55 sec
+Train accuracy :	0.286	(367008/1281024)		Train loss :	3.5315
+Val accuracy   :	0.25	(12483/50000)		Val loss :	3.844
+Top-5 val acc  :	0.472	(23620/50000)
+
+
+
+Epoch 48 in 199.76 sec
+Train accuracy :	0.292	(374390/1281024)		Train loss :	3.4907
+Val accuracy   :	0.253	(12662/50000)		Val loss :	3.8364
+Top-5 val acc  :	0.475	(23742/50000)
+
+
+
+Epoch 49 in 200.13 sec
+Train accuracy :	0.297	(380886/1281024)		Train loss :	3.4543
+Val accuracy   :	0.255	(12756/50000)		Val loss :	3.8112
+Top-5 val acc  :	0.477	(23833/50000)
+
+
+
+Epoch 50 in 198.78 sec
+Train accuracy :	0.304	(388792/1281024)		Train loss :	3.4132
+Val accuracy   :	0.262	(13095/50000)		Val loss :	3.7848
+Top-5 val acc  :	0.484	(24208/50000)
+
+
+
+Epoch 51 in 198.87 sec
+Train accuracy :	0.31	(396519/1281024)		Train loss :	3.3739
+Val accuracy   :	0.266	(13283/50000)		Val loss :	3.7676
+Top-5 val acc  :	0.488	(24378/50000)
+
+
+
+Epoch 52 in 199.21 sec
+Train accuracy :	0.315	(403443/1281024)		Train loss :	3.3356
+Val accuracy   :	0.265	(13230/50000)		Val loss :	3.7358
+Top-5 val acc  :	0.494	(24706/50000)
+
+
+
+Epoch 53 in 198.55 sec
+Train accuracy :	0.321	(410605/1281024)		Train loss :	3.2967
+Val accuracy   :	0.274	(13702/50000)		Val loss :	3.7315
+Top-5 val acc  :	0.502	(25110/50000)
+
+
+
+Epoch 54 in 198.60 sec
+Train accuracy :	0.326	(418127/1281024)		Train loss :	3.257
+Val accuracy   :	0.277	(13874/50000)		Val loss :	3.667
+Top-5 val acc  :	0.507	(25329/50000)
+
+
+
+Epoch 55 in 201.04 sec
+Train accuracy :	0.333	(426165/1281024)		Train loss :	3.2162
+Val accuracy   :	0.276	(13793/50000)		Val loss :	3.6654
+Top-5 val acc  :	0.509	(25440/50000)
+
+
+
+Epoch 56 in 198.83 sec
+Train accuracy :	0.339	(433878/1281024)		Train loss :	3.174
+Val accuracy   :	0.281	(14033/50000)		Val loss :	3.64
+Top-5 val acc  :	0.508	(25394/50000)
+
+
+
+Epoch 57 in 198.78 sec
+Train accuracy :	0.345	(441629/1281024)		Train loss :	3.1365
+Val accuracy   :	0.287	(14368/50000)		Val loss :	3.5648
+Top-5 val acc  :	0.522	(26087/50000)
+
+
+
+Epoch 58 in 198.81 sec
+Train accuracy :	0.351	(449679/1281024)		Train loss :	3.0953
+Val accuracy   :	0.29	(14499/50000)		Val loss :	3.5968
+Top-5 val acc  :	0.521	(26051/50000)
+
+
+
+Epoch 59 in 199.55 sec
+Train accuracy :	0.357	(457937/1281024)		Train loss :	3.0547
+Val accuracy   :	0.295	(14746/50000)		Val loss :	3.5694
+Top-5 val acc  :	0.525	(26266/50000)
+
+
+
+Epoch 60 in 198.95 sec
+Train accuracy :	0.364	(465876/1281024)		Train loss :	3.0132
+Val accuracy   :	0.297	(14868/50000)		Val loss :	3.5417
+Top-5 val acc  :	0.532	(26586/50000)
+
+
+
+Epoch 61 in 199.34 sec
+Train accuracy :	0.37	(474103/1281024)		Train loss :	2.9739
+Val accuracy   :	0.304	(15218/50000)		Val loss :	3.5132
+Top-5 val acc  :	0.539	(26947/50000)
+
+
+
+Epoch 62 in 199.31 sec
+Train accuracy :	0.376	(481468/1281024)		Train loss :	2.9321
+Val accuracy   :	0.307	(15350/50000)		Val loss :	3.4568
+Top-5 val acc  :	0.542	(27100/50000)
+
+
+
+Epoch 63 in 199.50 sec
+Train accuracy :	0.383	(490589/1281024)		Train loss :	2.8912
+Val accuracy   :	0.309	(15432/50000)		Val loss :	3.4654
+Top-5 val acc  :	0.547	(27357/50000)
+
+
+
+Epoch 64 in 198.83 sec
+Train accuracy :	0.389	(498806/1281024)		Train loss :	2.8511
+Val accuracy   :	0.314	(15677/50000)		Val loss :	3.4421
+Top-5 val acc  :	0.546	(27321/50000)
+
+
+
+Epoch 65 in 199.40 sec
+Train accuracy :	0.396	(507772/1281024)		Train loss :	2.8101
+Val accuracy   :	0.317	(15831/50000)		Val loss :	3.4396
+Top-5 val acc  :	0.555	(27734/50000)
+
+
+
+Epoch 66 in 198.37 sec
+Train accuracy :	0.403	(516167/1281024)		Train loss :	2.7695
+Val accuracy   :	0.32	(16009/50000)		Val loss :	3.3749
+Top-5 val acc  :	0.555	(27738/50000)
+
+
+
+Epoch 67 in 199.27 sec
+Train accuracy :	0.41	(524719/1281024)		Train loss :	2.7296
+Val accuracy   :	0.317	(15851/50000)		Val loss :	3.403
+Top-5 val acc  :	0.554	(27699/50000)
+
+
+
+Epoch 68 in 200.62 sec
+Train accuracy :	0.416	(532730/1281024)		Train loss :	2.6905
+Val accuracy   :	0.325	(16241/50000)		Val loss :	3.3938
+Top-5 val acc  :	0.559	(27959/50000)
+
+
+
+Epoch 69 in 200.53 sec
+Train accuracy :	0.422	(541156/1281024)		Train loss :	2.6505
+Val accuracy   :	0.328	(16406/50000)		Val loss :	3.3478
+Top-5 val acc  :	0.566	(28286/50000)
+
+
+
+Epoch 70 in 199.32 sec
+Train accuracy :	0.43	(550449/1281024)		Train loss :	2.6099
+Val accuracy   :	0.331	(16573/50000)		Val loss :	3.3239
+Top-5 val acc  :	0.568	(28418/50000)
+
+
+
+Epoch 71 in 198.89 sec
+Train accuracy :	0.436	(557892/1281024)		Train loss :	2.5714
+Val accuracy   :	0.334	(16714/50000)		Val loss :	3.3333
+Top-5 val acc  :	0.571	(28566/50000)
+
+
+
+Epoch 72 in 198.51 sec
+Train accuracy :	0.443	(567298/1281024)		Train loss :	2.5313
+Val accuracy   :	0.34	(16995/50000)		Val loss :	3.3058
+Top-5 val acc  :	0.578	(28875/50000)
+
+
+
+Epoch 73 in 199.84 sec
+Train accuracy :	0.45	(575876/1281024)		Train loss :	2.4924
+Val accuracy   :	0.341	(17064/50000)		Val loss :	3.2794
+Top-5 val acc  :	0.581	(29031/50000)
+
+
+
+Epoch 74 in 200.03 sec
+Train accuracy :	0.456	(584613/1281024)		Train loss :	2.454
+Val accuracy   :	0.344	(17177/50000)		Val loss :	3.276
+Top-5 val acc  :	0.584	(29212/50000)
+
+
+
+Epoch 75 in 199.67 sec
+Train accuracy :	0.463	(593153/1281024)		Train loss :	2.4168
+Val accuracy   :	0.347	(17362/50000)		Val loss :	3.2397
+Top-5 val acc  :	0.588	(29398/50000)
+
+
+
+Epoch 76 in 199.46 sec
+Train accuracy :	0.47	(601519/1281024)		Train loss :	2.3794
+Val accuracy   :	0.347	(17360/50000)		Val loss :	3.2528
+Top-5 val acc  :	0.589	(29428/50000)
+
+
+
+Epoch 77 in 199.71 sec
+Train accuracy :	0.476	(610035/1281024)		Train loss :	2.3449
+Val accuracy   :	0.353	(17645/50000)		Val loss :	3.233
+Top-5 val acc  :	0.591	(29555/50000)
+
+
+
+Epoch 78 in 198.87 sec
+Train accuracy :	0.483	(618710/1281024)		Train loss :	2.3095
+Val accuracy   :	0.353	(17635/50000)		Val loss :	3.2077
+Top-5 val acc  :	0.593	(29632/50000)
+
+
+
+Epoch 79 in 199.46 sec
+Train accuracy :	0.489	(626574/1281024)		Train loss :	2.2747
+Val accuracy   :	0.356	(17784/50000)		Val loss :	3.2048
+Top-5 val acc  :	0.593	(29668/50000)
+
+
+
+Epoch 80 in 199.68 sec
+Train accuracy :	0.494	(633388/1281024)		Train loss :	2.242
+Val accuracy   :	0.359	(17928/50000)		Val loss :	3.1881
+Top-5 val acc  :	0.596	(29799/50000)
+
+
+
+Epoch 81 in 200.87 sec
+Train accuracy :	0.501	(641558/1281024)		Train loss :	2.2109
+Val accuracy   :	0.357	(17842/50000)		Val loss :	3.196
+Top-5 val acc  :	0.598	(29913/50000)
+
+
+
+Epoch 82 in 198.99 sec
+Train accuracy :	0.506	(647680/1281024)		Train loss :	2.1839
+Val accuracy   :	0.359	(17929/50000)		Val loss :	3.2052
+Top-5 val acc  :	0.599	(29955/50000)
+
+
+
+Epoch 83 in 199.94 sec
+Train accuracy :	0.511	(654407/1281024)		Train loss :	2.1577
+Val accuracy   :	0.36	(18008/50000)		Val loss :	3.1833
+Top-5 val acc  :	0.603	(30150/50000)
+
+
+
+Epoch 84 in 200.23 sec
+Train accuracy :	0.516	(660944/1281024)		Train loss :	2.1326
+Val accuracy   :	0.362	(18079/50000)		Val loss :	3.1875
+Top-5 val acc  :	0.602	(30103/50000)
+
+
+
+Epoch 85 in 199.26 sec
+Train accuracy :	0.52	(666473/1281024)		Train loss :	2.1091
+Val accuracy   :	0.362	(18087/50000)		Val loss :	3.1862
+Top-5 val acc  :	0.604	(30206/50000)
+
+
+
+Epoch 86 in 200.24 sec
+Train accuracy :	0.523	(670399/1281024)		Train loss :	2.093
+Val accuracy   :	0.364	(18192/50000)		Val loss :	3.1753
+Top-5 val acc  :	0.605	(30225/50000)
+
+
+
+Epoch 87 in 199.06 sec
+Train accuracy :	0.527	(674797/1281024)		Train loss :	2.075
+Val accuracy   :	0.365	(18268/50000)		Val loss :	3.1716
+Top-5 val acc  :	0.606	(30309/50000)
+
+
+
+Epoch 88 in 199.39 sec
+Train accuracy :	0.529	(678248/1281024)		Train loss :	2.0624
+Val accuracy   :	0.366	(18287/50000)		Val loss :	3.1739
+Top-5 val acc  :	0.606	(30319/50000)
+
+
+
+Epoch 89 in 200.13 sec
+Train accuracy :	0.531	(680627/1281024)		Train loss :	2.0531
+Val accuracy   :	0.365	(18265/50000)		Val loss :	3.1731
+Top-5 val acc  :	0.608	(30385/50000)
+
+
+
+Epoch 90 in 199.07 sec
+Train accuracy :	0.533	(683021/1281024)		Train loss :	2.044
+Val accuracy   :	0.367	(18333/50000)		Val loss :	3.1725
+Top-5 val acc  :	0.607	(30369/50000)
+
+

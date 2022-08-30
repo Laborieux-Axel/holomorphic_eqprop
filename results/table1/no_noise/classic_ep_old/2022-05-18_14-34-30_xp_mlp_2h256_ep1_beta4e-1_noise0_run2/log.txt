@@ -1,0 +1,352 @@
+python train.py simus/ep/mlp/mnist_runs/no_noise/classic_ep_run2.json
+
+Mean log L2 = -5.949611663818359
+
+Epoch 1 in 90.78 sec
+Train accuracy :	0.934	(56033/60000)		Train loss :	0.2192
+Val accuracy   :	0.934	(9336/10000)		Val loss :	0.229
+
+
+Mean log L2 = -5.943750381469727
+
+Epoch 2 in 60.91 sec
+Train accuracy :	0.965	(57906/60000)		Train loss :	0.1213
+Val accuracy   :	0.963	(9625/10000)		Val loss :	0.1381
+
+
+Mean log L2 = -5.9468092918396
+
+Epoch 3 in 61.15 sec
+Train accuracy :	0.971	(58287/60000)		Train loss :	0.098
+Val accuracy   :	0.964	(9636/10000)		Val loss :	0.1275
+
+
+Mean log L2 = -5.952117919921875
+
+Epoch 4 in 81.94 sec
+Train accuracy :	0.962	(57729/60000)		Train loss :	0.1267
+Val accuracy   :	0.956	(9562/10000)		Val loss :	0.1545
+
+
+Mean log L2 = -5.945399761199951
+
+Epoch 5 in 61.03 sec
+Train accuracy :	0.975	(58498/60000)		Train loss :	0.085
+Val accuracy   :	0.966	(9664/10000)		Val loss :	0.1162
+
+
+Mean log L2 = -5.957068920135498
+
+Epoch 6 in 58.96 sec
+Train accuracy :	0.975	(58501/60000)		Train loss :	0.0848
+Val accuracy   :	0.967	(9668/10000)		Val loss :	0.1168
+
+
+Mean log L2 = -5.955337047576904
+
+Epoch 7 in 52.37 sec
+Train accuracy :	0.97	(58205/60000)		Train loss :	0.1018
+Val accuracy   :	0.959	(9592/10000)		Val loss :	0.1432
+
+
+Mean log L2 = -5.95306921005249
+
+Epoch 8 in 52.58 sec
+Train accuracy :	0.985	(59092/60000)		Train loss :	0.0525
+Val accuracy   :	0.972	(9719/10000)		Val loss :	0.0984
+
+
+Mean log L2 = -5.955125331878662
+
+Epoch 9 in 52.97 sec
+Train accuracy :	0.985	(59093/60000)		Train loss :	0.0534
+Val accuracy   :	0.972	(9722/10000)		Val loss :	0.0997
+
+
+Mean log L2 = -5.959334850311279
+
+Epoch 10 in 52.70 sec
+Train accuracy :	0.979	(58742/60000)		Train loss :	0.0701
+Val accuracy   :	0.965	(9646/10000)		Val loss :	0.1195
+
+
+Mean log L2 = -5.964047908782959
+
+Epoch 11 in 53.04 sec
+Train accuracy :	0.985	(59113/60000)		Train loss :	0.05
+Val accuracy   :	0.97	(9701/10000)		Val loss :	0.1099
+
+
+Mean log L2 = -5.962724208831787
+
+Epoch 12 in 53.31 sec
+Train accuracy :	0.983	(59001/60000)		Train loss :	0.058
+Val accuracy   :	0.968	(9682/10000)		Val loss :	0.1131
+
+
+Mean log L2 = -5.957646369934082
+
+Epoch 13 in 53.14 sec
+Train accuracy :	0.982	(58942/60000)		Train loss :	0.0628
+Val accuracy   :	0.967	(9668/10000)		Val loss :	0.1234
+
+
+Mean log L2 = -5.958859920501709
+
+Epoch 14 in 52.78 sec
+Train accuracy :	0.982	(58923/60000)		Train loss :	0.0597
+Val accuracy   :	0.969	(9688/10000)		Val loss :	0.1079
+
+
+Mean log L2 = -5.958906173706055
+
+Epoch 15 in 52.40 sec
+Train accuracy :	0.987	(59204/60000)		Train loss :	0.0469
+Val accuracy   :	0.972	(9718/10000)		Val loss :	0.1053
+
+
+Mean log L2 = -5.962808132171631
+
+Epoch 16 in 52.79 sec
+Train accuracy :	0.985	(59092/60000)		Train loss :	0.0524
+Val accuracy   :	0.969	(9692/10000)		Val loss :	0.1122
+
+
+Mean log L2 = -5.972112655639648
+
+Epoch 17 in 52.78 sec
+Train accuracy :	0.986	(59133/60000)		Train loss :	0.0481
+Val accuracy   :	0.97	(9701/10000)		Val loss :	0.1049
+
+
+Mean log L2 = -5.972166538238525
+
+Epoch 18 in 52.52 sec
+Train accuracy :	0.99	(59401/60000)		Train loss :	0.0357
+Val accuracy   :	0.97	(9700/10000)		Val loss :	0.1068
+
+
+Mean log L2 = -5.965054035186768
+
+Epoch 19 in 52.83 sec
+Train accuracy :	0.993	(59565/60000)		Train loss :	0.0264
+Val accuracy   :	0.974	(9737/10000)		Val loss :	0.0959
+
+
+Mean log L2 = -5.967411041259766
+
+Epoch 20 in 53.31 sec
+Train accuracy :	0.989	(59333/60000)		Train loss :	0.0387
+Val accuracy   :	0.971	(9711/10000)		Val loss :	0.1038
+
+
+Mean log L2 = -5.970956325531006
+
+Epoch 21 in 53.16 sec
+Train accuracy :	0.987	(59206/60000)		Train loss :	0.0438
+Val accuracy   :	0.968	(9681/10000)		Val loss :	0.1124
+
+
+Mean log L2 = -5.962442874908447
+
+Epoch 22 in 53.50 sec
+Train accuracy :	0.989	(59341/60000)		Train loss :	0.0397
+Val accuracy   :	0.972	(9716/10000)		Val loss :	0.1089
+
+
+Mean log L2 = -5.964059352874756
+
+Epoch 23 in 52.67 sec
+Train accuracy :	0.995	(59672/60000)		Train loss :	0.0218
+Val accuracy   :	0.974	(9737/10000)		Val loss :	0.0977
+
+
+Mean log L2 = -5.9794230461120605
+
+Epoch 24 in 52.89 sec
+Train accuracy :	0.99	(59388/60000)		Train loss :	0.036
+Val accuracy   :	0.969	(9692/10000)		Val loss :	0.1187
+
+
+Mean log L2 = -5.9735426902771
+
+Epoch 25 in 48.55 sec
+Train accuracy :	0.99	(59395/60000)		Train loss :	0.0344
+Val accuracy   :	0.971	(9706/10000)		Val loss :	0.1047
+
+
+Mean log L2 = -5.973423480987549
+
+Epoch 26 in 47.89 sec
+Train accuracy :	0.992	(59495/60000)		Train loss :	0.0309
+Val accuracy   :	0.971	(9713/10000)		Val loss :	0.105
+
+
+Mean log L2 = -5.972416877746582
+
+Epoch 27 in 48.26 sec
+Train accuracy :	0.99	(59387/60000)		Train loss :	0.0357
+Val accuracy   :	0.972	(9720/10000)		Val loss :	0.1114
+
+
+Mean log L2 = -5.968261241912842
+
+Epoch 28 in 47.73 sec
+Train accuracy :	0.995	(59699/60000)		Train loss :	0.0198
+Val accuracy   :	0.975	(9752/10000)		Val loss :	0.0915
+
+
+Mean log L2 = -5.978509426116943
+
+Epoch 29 in 47.85 sec
+Train accuracy :	0.996	(59733/60000)		Train loss :	0.0174
+Val accuracy   :	0.977	(9768/10000)		Val loss :	0.0883
+
+
+Mean log L2 = -5.975146770477295
+
+Epoch 30 in 47.89 sec
+Train accuracy :	0.996	(59731/60000)		Train loss :	0.0168
+Val accuracy   :	0.974	(9739/10000)		Val loss :	0.0984
+
+
+Mean log L2 = -5.973016262054443
+
+Epoch 31 in 47.46 sec
+Train accuracy :	0.993	(59579/60000)		Train loss :	0.0242
+Val accuracy   :	0.972	(9720/10000)		Val loss :	0.1082
+
+
+Mean log L2 = -5.972047328948975
+
+Epoch 32 in 48.21 sec
+Train accuracy :	0.986	(59159/60000)		Train loss :	0.0495
+Val accuracy   :	0.966	(9661/10000)		Val loss :	0.1309
+
+
+Mean log L2 = -5.97124719619751
+
+Epoch 33 in 48.84 sec
+Train accuracy :	0.987	(59215/60000)		Train loss :	0.0452
+Val accuracy   :	0.97	(9697/10000)		Val loss :	0.1209
+
+
+Mean log L2 = -5.967991828918457
+
+Epoch 34 in 49.44 sec
+Train accuracy :	0.998	(59859/60000)		Train loss :	0.0118
+Val accuracy   :	0.977	(9773/10000)		Val loss :	0.0875
+
+
+Mean log L2 = -5.977437496185303
+
+Epoch 35 in 48.15 sec
+Train accuracy :	0.998	(59855/60000)		Train loss :	0.0112
+Val accuracy   :	0.976	(9761/10000)		Val loss :	0.0873
+
+
+Mean log L2 = -5.978934288024902
+
+Epoch 36 in 50.53 sec
+Train accuracy :	0.998	(59857/60000)		Train loss :	0.0111
+Val accuracy   :	0.977	(9766/10000)		Val loss :	0.0919
+
+
+Mean log L2 = -5.975958347320557
+
+Epoch 37 in 50.76 sec
+Train accuracy :	0.996	(59772/60000)		Train loss :	0.0157
+Val accuracy   :	0.974	(9742/10000)		Val loss :	0.1045
+
+
+Mean log L2 = -5.974079132080078
+
+Epoch 38 in 49.69 sec
+Train accuracy :	0.995	(59696/60000)		Train loss :	0.0182
+Val accuracy   :	0.974	(9738/10000)		Val loss :	0.106
+
+
+Mean log L2 = -5.974461555480957
+
+Epoch 39 in 49.97 sec
+Train accuracy :	0.997	(59823/60000)		Train loss :	0.0126
+Val accuracy   :	0.976	(9758/10000)		Val loss :	0.0945
+
+
+Mean log L2 = -5.97737455368042
+
+Epoch 40 in 49.90 sec
+Train accuracy :	0.996	(59778/60000)		Train loss :	0.0147
+Val accuracy   :	0.975	(9751/10000)		Val loss :	0.0969
+
+
+Mean log L2 = -5.970413684844971
+
+Epoch 41 in 50.28 sec
+Train accuracy :	0.996	(59737/60000)		Train loss :	0.0159
+Val accuracy   :	0.974	(9739/10000)		Val loss :	0.1013
+
+
+Mean log L2 = -5.9786763191223145
+
+Epoch 42 in 49.83 sec
+Train accuracy :	0.998	(59863/60000)		Train loss :	0.0109
+Val accuracy   :	0.974	(9743/10000)		Val loss :	0.1002
+
+
+Mean log L2 = -5.976686000823975
+
+Epoch 43 in 49.99 sec
+Train accuracy :	0.995	(59723/60000)		Train loss :	0.0179
+Val accuracy   :	0.975	(9748/10000)		Val loss :	0.0945
+
+
+Mean log L2 = -5.974645137786865
+
+Epoch 44 in 49.84 sec
+Train accuracy :	0.99	(59397/60000)		Train loss :	0.0355
+Val accuracy   :	0.97	(9697/10000)		Val loss :	0.1307
+
+
+Mean log L2 = -5.981723308563232
+
+Epoch 45 in 53.12 sec
+Train accuracy :	0.994	(59612/60000)		Train loss :	0.0222
+Val accuracy   :	0.973	(9726/10000)		Val loss :	0.1151
+
+
+Mean log L2 = -5.979201793670654
+
+Epoch 46 in 54.08 sec
+Train accuracy :	0.997	(59828/60000)		Train loss :	0.0114
+Val accuracy   :	0.974	(9740/10000)		Val loss :	0.1038
+
+
+Mean log L2 = -5.97145414352417
+
+Epoch 47 in 51.95 sec
+Train accuracy :	0.998	(59886/60000)		Train loss :	0.0087
+Val accuracy   :	0.977	(9765/10000)		Val loss :	0.096
+
+
+Mean log L2 = -5.9759745597839355
+
+Epoch 48 in 53.64 sec
+Train accuracy :	0.997	(59819/60000)		Train loss :	0.0123
+Val accuracy   :	0.975	(9745/10000)		Val loss :	0.095
+
+
+Mean log L2 = -5.983619213104248
+
+Epoch 49 in 52.57 sec
+Train accuracy :	0.995	(59708/60000)		Train loss :	0.018
+Val accuracy   :	0.974	(9744/10000)		Val loss :	0.104
+
+
+Mean log L2 = -5.9791579246521
+
+Epoch 50 in 49.49 sec
+Train accuracy :	0.996	(59784/60000)		Train loss :	0.0142
+Val accuracy   :	0.974	(9742/10000)		Val loss :	0.105
+
+

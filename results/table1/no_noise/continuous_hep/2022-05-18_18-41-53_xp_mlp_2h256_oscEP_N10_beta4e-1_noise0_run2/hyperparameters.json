@@ -1,0 +1,35 @@
+{
+    "name": "xp_mlp_2h256_oscEP_N10_beta4e-1_noise0_run2",
+    "model_type": "xp_mlp",
+    "task": "mnist",
+    "seed": 1,
+    "batch_size": 20,
+    "in_size": 784,
+    "n_targets": 10,
+    "archi": {
+        "xphi/~/fc_1": {
+            "fc": 256,
+            "lr": 0.05
+        },
+        "xphi/~/fc_2": {
+            "fc": 256,
+            "lr": 0.05
+        },
+        "xphi/~/fc_3": {
+            "fc": 10,
+            "lr": 0.05
+        }
+    },
+    "activation": "my_sigmoid",
+    "a": -4,
+    "b": 2,
+    "algo": "oscEP",
+    "epochs": 50,
+    "beta": 0.4,
+    "T1": 200,
+    "T2": 30,
+    "N": 10,
+    "noise": 0.0,
+    "save": true,
+    "save_model": false
+}

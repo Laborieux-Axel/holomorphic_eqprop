@@ -1,0 +1,35 @@
+{
+    "name": "xp_mlp_2h256_ep1_beta1e-1_noise4e-2_run1",
+    "model_type": "xp_mlp",
+    "task": "mnist",
+    "seed": 0,
+    "batch_size": 20,
+    "in_size": 784,
+    "n_targets": 10,
+    "archi": {
+        "xphi/~/fc_1": {
+            "fc": 256,
+            "lr": 0.05
+        },
+        "xphi/~/fc_2": {
+            "fc": 256,
+            "lr": 0.05
+        },
+        "xphi/~/fc_3": {
+            "fc": 10,
+            "lr": 0.05
+        }
+    },
+    "activation": "my_sigmoid",
+    "a": -4,
+    "b": 2,
+    "algo": "EP",
+    "epochs": 50,
+    "beta": 0.1,
+    "T1": 350,
+    "T2": 350,
+    "N": 1,
+    "noise": 0.04,
+    "save": true,
+    "save_model": false
+}

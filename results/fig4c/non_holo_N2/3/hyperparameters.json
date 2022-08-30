@@ -1,0 +1,86 @@
+{
+    "name": "xpvgg6_cif10_max_ep2_mhtanh_T260_beta1",
+    "seed": 2,
+    "model_type": "xent_p_cnn",
+    "task": "cifar10",
+    "algo": "EP",
+    "batch_size": 128,
+    "archi": {
+        "convlen": 6,
+        "fclen": 1,
+        "xent_phi/~/conv_1": {
+            "channel": 128,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "m",
+            "padding": "SAME",
+            "lr": 0.05,
+            "wd": 0.0005,
+            "Tmp": 1.0
+        },
+        "xent_phi/~/conv_2": {
+            "channel": 128,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "i",
+            "padding": "SAME",
+            "lr": 0.04,
+            "wd": 0.0005
+        },
+        "xent_phi/~/conv_3": {
+            "channel": 256,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "m",
+            "padding": "SAME",
+            "lr": 0.04,
+            "wd": 0.0005,
+            "Tmp": 1.0
+        },
+        "xent_phi/~/conv_4": {
+            "channel": 256,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "i",
+            "padding": "VALID",
+            "lr": 0.03,
+            "wd": 0.0005
+        },
+        "xent_phi/~/conv_5": {
+            "channel": 512,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "m",
+            "padding": "SAME",
+            "lr": 0.03,
+            "wd": 0.0005,
+            "Tmp": 1.0
+        },
+        "xent_phi/~/conv_6": {
+            "channel": 512,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "i",
+            "padding": "VALID",
+            "lr": 0.02,
+            "wd": 0.0005
+        },
+        "xent_phi/~/fc_7": {
+            "fc": 10,
+            "lr": 0.02,
+            "wd": 0.001
+        }
+    },
+    "activation": "my_hardtanh",
+    "a": 1,
+    "epochs": 90,
+    "beta": 1.0,
+    "T1": 260,
+    "T2": 60,
+    "N": 2,
+    "parallel": true,
+    "save": true,
+    "save_model": true,
+    "save_checkpoint": true,
+    "plot": false
+}

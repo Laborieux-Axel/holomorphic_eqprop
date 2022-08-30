@@ -1,0 +1,69 @@
+{
+    "name": "xpvgg_cif100_soft_ep2_mholo1_beta1_wd1e-2_run1",
+    "seed": 0,
+    "model_type": "xent_p_cnn",
+    "task": "cifar100",
+    "algo": "EP",
+    "batch_size": 128,
+    "archi": {
+        "convlen": 4,
+        "fclen": 1,
+        "xent_phi/~/conv_1": {
+            "channel": 128,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "s",
+            "Tmp": 1.0,
+            "padding": "SAME",
+            "lr": 0.25,
+            "wd": 0.01
+        },
+        "xent_phi/~/conv_2": {
+            "channel": 256,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "s",
+            "Tmp": 1.0,
+            "padding": "SAME",
+            "lr": 0.15,
+            "wd": 0.01
+        },
+        "xent_phi/~/conv_3": {
+            "channel": 512,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "s",
+            "Tmp": 1.0,
+            "padding": "SAME",
+            "lr": 0.1,
+            "wd": 0.01
+        },
+        "xent_phi/~/conv_4": {
+            "channel": 512,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "s",
+            "Tmp": 1.0,
+            "padding": "VALID",
+            "lr": 0.08,
+            "wd": 0.01
+        },
+        "xent_phi/~/fc_5": {
+            "fc": 100,
+            "lr": 0.05,
+            "wd": 0.01
+        }
+    },
+    "activation": "my_holotanh",
+    "a": 1,
+    "epochs": 90,
+    "beta": 1.0,
+    "T1": 250,
+    "T2": 60,
+    "N": 2,
+    "parallel": true,
+    "save": true,
+    "save_model": false,
+    "save_checkpoint": true,
+    "plot": false
+}

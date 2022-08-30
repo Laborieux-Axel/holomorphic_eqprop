@@ -1,0 +1,33 @@
+{
+    "name": "xp_mlp_2h_mnist_N10_T40_beta5e-2_noise0",
+    "model_type": "xp_mlp",
+    "task": "mnist",
+    "seed": 2,
+    "batch_size": 10,
+    "in_size": 784,
+    "n_targets": 10,
+    "archi": {
+        "xphi/~/fc_1": {
+            "fc": 256,
+            "sc": 0.05
+        },
+        "xphi/~/fc_2": {
+            "fc": 256,
+            "sc": 0.05
+        },
+        "xphi/~/fc_3": {
+            "fc": 10,
+            "sc": 0.05
+        }
+    },
+    "activation": "my_sigmoid",
+    "a": -4,
+    "b": 2,
+    "beta": 0.5,
+    "T1": 400,
+    "T2": 40,
+    "N": 10,
+    "noise": 0.0,
+    "save": true,
+    "plot": false
+}

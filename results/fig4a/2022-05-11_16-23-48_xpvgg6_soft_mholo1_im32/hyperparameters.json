@@ -1,0 +1,74 @@
+{
+    "name": "xpvgg6_soft_mholo1_im32",
+    "seed": 3,
+    "model_type": "xent_p_cnn",
+    "task": "imagenet32",
+    "batch_size": 16,
+    "archi": {
+        "convlen": 6,
+        "fclen": 1,
+        "xent_phi/~/conv_1": {
+            "channel": 128,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "s",
+            "Tmp": 1.0,
+            "padding": "SAME"
+        },
+        "xent_phi/~/conv_2": {
+            "channel": 128,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "i",
+            "padding": "SAME"
+        },
+        "xent_phi/~/conv_3": {
+            "channel": 256,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "s",
+            "Tmp": 1.0,
+            "padding": "SAME"
+        },
+        "xent_phi/~/conv_4": {
+            "channel": 256,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "i",
+            "padding": "VALID"
+        },
+        "xent_phi/~/conv_5": {
+            "channel": 512,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "s",
+            "Tmp": 1.0,
+            "padding": "SAME"
+        },
+        "xent_phi/~/conv_6": {
+            "channel": 512,
+            "kernel": 3,
+            "stride": 1,
+            "pooling": "i",
+            "padding": "VALID"
+        },
+        "xent_phi/~/fc_7": {
+            "fc": 1000
+        }
+    },
+    "activation": "my_holotanh",
+    "a": 1,
+    "b": 2,
+    "beta": 15.0,
+    "T1": 50,
+    "T2": 20,
+    "N": [
+        1,
+        2,
+        4,
+        20
+    ],
+    "save": true,
+    "parallel": false,
+    "plot": false
+}

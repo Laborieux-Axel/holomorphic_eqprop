@@ -1,0 +1,34 @@
+{
+    "name": "xp_mlp_toy",
+    "task": "toy",
+    "model_type": "xp_mlp",
+    "seed": 2,
+    "batch_size": 1,
+    "in_size": 6,
+    "n_targets": 4,
+    "archi": {
+        "xphi/~/fc_1": {
+            "fc": 4,
+            "sc": 0.5
+        },
+        "xphi/~/fc_2": {
+            "fc": 4,
+            "sc": 0.5
+        },
+        "xphi/~/fc_3": {
+            "fc": 4,
+            "sc": 0.5
+        }
+    },
+    "activation": "my_sigmoid",
+    "a": -4,
+    "b": 2,
+    "T1": 100,
+    "T2": 200,
+    "xcenter": 0.0,
+    "ycenter": 0.0,
+    "width": 3.0,
+    "resol": 1000,
+    "save": true,
+    "plot": false
+}

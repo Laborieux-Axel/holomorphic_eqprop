@@ -1,0 +1,36 @@
+{
+    "name": "xp_mlp_2h256_mnist_msig4_winit5e-2",
+    "model_type": "xp_mlp",
+    "task": "mnist",
+    "seed": 1,
+    "batch_size": 10,
+    "in_size": 784,
+    "n_targets": 10,
+    "archi": {
+        "xphi/~/fc_1": {
+            "fc": 256,
+            "sc": 0.05
+        },
+        "xphi/~/fc_2": {
+            "fc": 256,
+            "sc": 0.05
+        },
+        "xphi/~/fc_3": {
+            "fc": 10,
+            "sc": 0.05
+        }
+    },
+    "activation": "my_sigmoid",
+    "a": -4,
+    "b": 2,
+    "beta": 4.0,
+    "T1": 100,
+    "T2": 60,
+    "N": [
+        1,
+        15
+    ],
+    "noise": 0.01,
+    "save": true,
+    "plot": true
+}
