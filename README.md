@@ -2,7 +2,7 @@
 
 ![overview](./figs/fig2.png)
 
-This file contains the instructions for reproducing the results and figures of the paper.
+This file contains the instructions for reproducing the results and figures of the [paper](http://arxiv.org/abs/2209.00530) "Holomorphic Equilibrium Propagation Computes Exact Gradients Through Finite Size Oscillations".
 
 ## Installing the environment
 
