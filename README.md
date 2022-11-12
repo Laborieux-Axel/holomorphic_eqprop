@@ -17,6 +17,8 @@ pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases
 pip install git+https://github.com/deepmind/dm-haiku
 pip install tensorflow
 pip install tensorflow-datasets
+pip install jupyter
+pip install matplotlib
 ```
 
 Alternatively, an older version of jaxlib may be installed for python 3.6
@@ -29,6 +31,8 @@ pip install --upgrade jax jaxlib==0.1.64+cudaXXX -f https://storage.googleapis.c
 pip install git+https://github.com/deepmind/dm-haiku
 pip install tensorflow
 pip install tensorflow-datasets
+pip install jupyter
+pip install matplotlib
 ```
 
 Where XXX must be replaced by the cuda version : e.g. 101 for cuda 10.1
@@ -79,6 +83,4 @@ The following table indicates the script corresponding to each experimental resu
 ## Figures
 
 The figures are plotted in the notebook `plot_figures.ipynb`.
-A separate environment with jupyter-notebook, matplotlib and numpy is required.
-
 
